@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(14, 66, 14);
+  }
+
+  h2 {
+    color: rgb(66, 66, 198);
+  }
+
+  img {
+    margin: 4px 16px 4px 0;
+    float: right;
+  }
+
+  footer {
+    margin-top: 3%;
+    padding: 20%;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0.5rem;
+  }
+
+ /*  aside {
+    width: 40%;
+    margin-left: 1px;
+  } */
+
+  body {
+    background-color: #add8e6;
+    margin-right: auto;
+    margin-left: 10%;
+    max-width: 1080px;
+  }
+
+  .sty {
+    background-color: #deeff5;
+  }

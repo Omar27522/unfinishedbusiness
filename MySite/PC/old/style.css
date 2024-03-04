@@ -1,0 +1,20 @@
+h1{color:green;}
+
+h2{color:blue;}
+
+img{margin:4px 16px 4px 0;float:right;}
+
+footer{margin-top:3%;padding:20%;position:fixed;
+bottom:0;padding-bottom:.5rem;
+
+}
+
+aside{width:40%;margin-left:1px;}
+
+body{
+    background-color:#ADD8E6;
+    margin-right: auto;
+  margin-left: 10%;
+  max-width: 1080px;
+  }
+.sty{background-color:#DEEFF5;}
