@@ -20,5 +20,7 @@ but I cannot code the erros.
   <h2>TLA</h2>
   The site I copied and edited from my php 7.xx book
   chapter 6 Using inheritance and designing a class
-PHP and MySQL Web Development
+PHP and MySQL Web Development, Fifth Edition
+
+The definitive guide to building database-driven Web applications with PHP and MySQL
 </p>
