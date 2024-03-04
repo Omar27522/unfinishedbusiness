@@ -36,3 +36,7 @@
 </footer>
 </body>
 </html>
+
+<!--This is the last iteration of the code, but I was workig on the temp file.
+-Now, what must be done is to call the functions from temp, and display the full site
+but I keep having the same issues. as documented on MySite.rtf-->
