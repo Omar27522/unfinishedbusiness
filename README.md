@@ -7,7 +7,7 @@ First create a simple inventory management table
 Then we will add categories such that they show the type of tools under different categories
 </p>
 <hr>
-<h1>MySite</h1>
+<h2>MySite</h2>
 <p>
 There are several iterations of this project.<br/ >
 Basically the page asks for a name. The user is not required to supply a name.<br>
