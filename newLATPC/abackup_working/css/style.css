@@ -1,0 +1,68 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+html    {
+    font-size:calc(1.5vw + 1.5vh);
+}
+
+body {
+    width:100%;
+    min-height:100vh;
+    background-color: lightgray;
+    border :2px dashed black;
+}
+
+header {
+    margin:1px;
+    border :2px dashed rgb(205, 7, 7);
+    padding: 5% 1% 1% 1%;
+    background-color:cornflowerblue;
+}
+
+.phone { /*phone number*/
+    color:lightgray;
+    position: absolute;
+    top:0;
+    right:10%;
+    border: dashed green;
+}
+
+.crumbs    {
+    color:midnightblue;
+    position: absolute;
+    top:0;
+    left:5%;
+    border:solid rgb(76, 0, 255);
+}
+
+header div { /*Logo*/
+    border: dashed beige;
+    font-size: calc(3vw + 3vh);
+    display: inline-block;
+    color:midnightblue;
+}
+
+header small { /*small text*/
+    font-size:small;
+    margin:3% 1% 0% 1%;
+    float:right;
+    border: solid yellow;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+header span {
+    color:aliceblue;
+}
+
+nav {
+    border : solid red;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:0px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}

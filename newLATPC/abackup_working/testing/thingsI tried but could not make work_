@@ -1,0 +1,67 @@
+CSS section:Sets the initial display of #menustate to none, hiding it.
+Defines styling for the hamburger button (label element).
+Attempts to hide the navigation menu and close button using display: none.
+Uses :is() pseudo-class to select either ul or .close elements within nav.
+Selects .open within nav to hide the open button.
+Defines styling for li elements to be displayed inline-flex.
+
+HTML section:Creates a label for menustate with open and close spans inside.
+Lists navigation items within a <ul> element.
+Each navigation item is wrapped in an <li> element containing a button.
+An image is included within one of the list items, although its positioning may need adjustment.
+ 
+
+
+
+
+
+
+
+
+#menustate {
+   display: none;
+ }
+ 
+ label {
+   /* Basic styling of hamburger button */
+   display: grid;
+   place-content: center;
+   width: 2.5rem;
+   height: 2.5rem;
+   font-size: 2rem;
+   background: #ccf;
+ }
+ // good idea but, I cannot make a picture show up on the while running the server
+ nav ul,
+ nav .close {
+   //Hide the menu and close button 
+   display: none;
+ }
+ 
+ #menustate:checked ~ nav :is(ul, .close) {
+   // Show the menu and close button 
+   display: block;
+ }
+ 
+ #menustate:checked ~ nav .open {
+   // Hide the open button 
+   display: none
+ }
+ li {
+     display:inline-flex;
+ }
+
+ <input aria-hidden="true" type="checkbox" id="menustate" />
+ <label for="menustate" aria-hidden="true">
+ <span class="open">≡</span>
+ <span class="close">×</span>
+         </label>
+ <ul>
+     <li><button>|Home|</button></li>
+     <li><button>|Español|</button></li>
+     <li><button>|Service|</button></li>
+     <li><button>|Contact|</button></li>
+     <li><button>|Reviews|</button></li>
+  <li>
+   <img style="position:absolute" src="https://latinospc.com/images/gallery/thumbnail/usbtypeA.jpg"></li>
+ </ul> 

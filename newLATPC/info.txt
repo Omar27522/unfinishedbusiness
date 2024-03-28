@@ -1,0 +1,6 @@
+    The words on the page shrink
+as the browser window on a PC
+shrinks.
+
+    Is that intended?
+    	Yes.
