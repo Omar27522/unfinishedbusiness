@@ -23,7 +23,7 @@ but I cannot code the erros.
 PHP and MySQL Web Development, Fifth Edition<br />
 The definitive guide to building database-driven Web applications with PHP and MySQL fifth edition
 </p>
-
+<hr>
 		<h2>LAtinosPC</h2>
 		<p>
-		This is the main site. check Second Branch for updates.</p>
+		This is the main site.<br />check Second Branch for updates.</p>
