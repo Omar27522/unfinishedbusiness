@@ -108,31 +108,64 @@
 * Make this absolute positioned
 * at the top left of the screen
 */
-#menu
-{
-    border: 1px solid red;
- position: absolute;
- left:-200%;
- width: 95vw;
- height: auto;
- margin: -100px 0 0 0;
- padding: 50px;
- padding-top: 125px;
- background: #ededed;
- list-style-type: none;
- -webkit-font-smoothing: antialiased;
- /* to stop flickering of text in safari */
- transform-origin: 0% 0%;
- transform: translate(-100%, 0);
- transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}/* min-aspect-ratio: 1/1 ensures that the styles inside the media query are applied only when the aspect ratio is at least 1:1,
-meaning the width is greater than or equal to the height.  */
+#menu {
+    position: absolute;
+    left: -200%; /* Initial position */
+    width: 95vw;
+    height: auto;
+    margin: -100px 0 0 0;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.7s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    /* Entry transition */
+}
+/*The menu does not push the page
+down while inactive.*/
+@keyframes changePosition {
+    0% {
+        position: absolute;
+    }
+    100% {
+        position: fixed;
+    }
+}
+/* Define entry transition inside media query */
 @media (min-aspect-ratio: 1/1) {
     #menu {
         position: absolute;
-        left: -285%;
+        display: inline-block;
+        padding: 5vh;
+        padding-top: 12vh;
+        width: 65vw;
+        height: auto;
+        margin: -100px 0 0 calc(-7vh + 7vw);
+        border: 1px solid red;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.7s cubic-bezier(0.77, 0.2, 0.05, 1.0);
     }
+
+    #menuToggle input:not(:checked) ~ #menu {
+        position: fixed;
+        display: inline-block;
+        padding: 5vh;
+        padding-top: 12vh;
+        width: 65vw;
+        height: auto;
+        margin: -100px 0 0 calc(-7vh + 7vw);
+        border: 1px solid red;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0%);
+        transition: transform 0.7s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+        animation: changePosition 1.9s forwards;
+    }    
 }
+
 #menu li
 {
  padding: 10px 0;
