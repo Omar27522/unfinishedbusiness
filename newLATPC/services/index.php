@@ -1,20 +1,15 @@
 <?php
-//class to do this job
-include ('../code/functions.php');
+include_once('../code/functions.php');
 $obj = new directory2();
-
-// header
-$obj->top_header();
-
-
-//here goes the page's content
-echo"Services page"."<br />";
-echo"Coverage of services";
-
-
-
-
-
-//footer
-$obj->footer();
+    $page = new page_content();
+include ('../code/html_structure/page.php');
+class page_content    {
+    public $a;
+        function __construct (){
+            $this->a='<h1>Yay! Some content.
+            </h1>'. titles().titles().titles().titles();
+        }
+}
+titles();
+echo " IS OUTSIDE THE ARTICLE ";
 ?>
