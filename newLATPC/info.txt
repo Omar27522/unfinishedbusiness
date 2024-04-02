@@ -19,7 +19,7 @@ in use, it looks too big.
 Landscape mode has proven to break
 the site's footer.
 
-				What about site's content?
+	What about site's content?
 Firstly, I believe is fair to say,
 that what care mostly is the
 structure of the site, and its
