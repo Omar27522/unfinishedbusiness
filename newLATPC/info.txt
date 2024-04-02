@@ -21,8 +21,8 @@ the site's footer.
 
 	What about site's content?
 Firstly, I believe is fair to say,
-that what care mostly is the
-structure of the site, and its
+that resources are going mostly towards
+the structure of the site, and its
 navigational feel. The mission
 statement of the site is a close
 second. I fix computers for a living,
