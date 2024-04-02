@@ -18,3 +18,15 @@ the menu doesn't show when not
 in use, it looks too big.
 Landscape mode has proven to break
 the site's footer.
+
+				What about site's content?
+Firstly, I believe is fair to say,
+that what care mostly is the
+structure of the site, and its
+navigational feel. The mission
+statement of the site is a close
+second. I fix computers for a living,
+but now all of my free time has been
+dedicated to the site. I hope to finish
+soon. Maybe there after more keyboards
+will arrive.
