@@ -1,0 +1,32 @@
+    The words on the page shrink
+as the browser window on a PC
+shrinks.
+
+    Is that intended?
+        Yes.
+
+    The overall look and feel
+is starting to set in.
+
+        What's next?
+
+    The side menu works great
+on mobile, portrait mode.
+Landscape mode on mobile is a
+terrible experience, although
+the menu doesn't show when not
+in use, it looks too big.
+Landscape mode has proven to break
+the site's footer.
+
+        What about site's content?
+Firstly, I believe is fair to say,
+that resources are going mostly towards
+the structure of the site, and its
+navigational feel. The mission
+statement of the site is a close
+second. I fix computers for a living,
+but now all of my free time has been
+dedicated to the site. I hope to finish
+soon. Maybe there after more keyboards
+will arrive.
