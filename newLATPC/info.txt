@@ -19,7 +19,7 @@ in use, it looks too big.
 Landscape mode has proven to break
 the site's footer.
 
-	What about site's content?
+        What about site's content?
 Firstly, I believe is fair to say,
 that resources are going mostly towards
 the structure of the site, and its
@@ -28,5 +28,5 @@ statement of the site is a close
 second. I fix computers for a living,
 but now all of my free time has been
 dedicated to the site. I hope to finish
-soon. Maybe thereafter, more keyboards
+soon. Maybe there after more keyboards
 will arrive.

@@ -4,11 +4,11 @@ $obj = new directory2();
     $page = new page_content();
 include ('../code/html_structure/page.php');
 class page_content    {
-    public $a;
-        function __construct (){
-            $this->a='<h1>Yay! Some content.
-            </h1>'. titles().titles().titles().titles();
-        }
+    function content ()    {
+        echo '<section>';
+        echo 'Parts';
+        echo '</section>';
+    }
 }
 titles();
 echo " IS OUTSIDE THE ARTICLE ";

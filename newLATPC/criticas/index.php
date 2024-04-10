@@ -4,12 +4,12 @@ $obj = new es_directory2();
     $page = new page_content();
 include ('../code/html_structure/page.php');
 class page_content    {
-    public $a;
-        function __construct (){
-            $this->a='<h1>Yay! Algun contenido.
-            </h1>'. titles().titles().titles().titles();
-        }
+    function content ()    {
+        echo '<section>';
+        echo 'Criticas';
+        echo '</section>';
+    }
 }
 titles();
-echo " ESTA AFUERA DEL ARTICLE ";
+echo " IS OUTSIDE THE ARTICLE ";
 ?>

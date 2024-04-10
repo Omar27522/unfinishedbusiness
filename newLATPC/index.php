@@ -4,11 +4,13 @@ $obj = new directory1();
     $page = new page_content();
 include ('./code/html_structure/page.php');
 class page_content    {
-    public $a;
-        function __construct (){
-            $this->a='<h1>Yay! Some content.
-            </h1>
-            This is The Main Page';
+    
+        function content ()    {
+            echo '<section>';
+            include
+            ('./info.txt');
+            echo '</section>';
         }
+           
 }
 ?>

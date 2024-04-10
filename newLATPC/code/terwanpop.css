@@ -176,7 +176,22 @@ down while inactive.*/
         animation: changePosition 1.9s forwards;
     }        
 }
+/* These aspect ratios will have to make the site work, on most standard aspect ratios.
+@media (min-aspect-ratio: 8/5) { 
+    div {
+        /* background: #9af;
+         blue
+    }
+}
 
+/* Maximum aspect ratio
+@media (max-aspect-ratio: 3/2) {
+    div {
+        /* background: #9ff;
+         cyan
+    }
+}
+*/
 #menu li
 {
  padding: 10px 0;

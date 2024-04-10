@@ -1,6 +1,6 @@
 <html
     <?php
-    /*include_once('../code/functions.php');// delete this and change directories on functions file or create a new one specifically for this one
+    /*include_once('../functions.php');// delete this and change directories on functions file or create a new one specifically for this one
     $obj = new es_directory2();
     $page = new page_content();*/
     echo $obj->lang;
@@ -57,7 +57,7 @@
 <article>
     <section>
         <?php
-            echo $page->a;
+            echo $page->content();
         ?>
     </section>
 </article>
