@@ -14,7 +14,7 @@
     </style>
 </head>
 <body>
-    <h1>Inventory Management</h1>
+    <h1>Inventory Madnagement</h1>
     <form action="" method="post">
         <table>
             <thead>

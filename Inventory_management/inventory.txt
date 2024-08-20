@@ -1,4 +1,3 @@
 newone
 two
 three
-four
